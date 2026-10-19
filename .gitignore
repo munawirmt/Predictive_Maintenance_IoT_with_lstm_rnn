@@ -1,0 +1,7 @@
+# Virtual Environment ഒഴിവാക്കാൻ
+venv/
+.venv/
+ENV/
+__pycache__/
+*.pyc
+data/*.txt
