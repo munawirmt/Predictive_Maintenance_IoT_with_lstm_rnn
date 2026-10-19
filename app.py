@@ -1,3 +1,10 @@
+import subprocess
+import time
+
+# Streamlit ഓൺ ആകുമ്പോൾ തന്നെ ബാക്ക്ഗ്രൗണ്ടിൽ FastAPI സെർവർ സ്റ്റാർട്ട് ചെയ്യുന്നു
+subprocess.Popen(["uvicorn", "api:app", "--host", "127.0.0.1", "--port", "8000"])
+time.sleep(3) # ബാക്കെൻഡ് ഓൺ ആകാൻ 3 സെക്കൻഡ് വെയിറ്റ് ചെയ്യുന്നു
+
 import streamlit as st
 import pandas as pd
 import numpy as np
