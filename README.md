@@ -1,6 +1,10 @@
-# 🏭 Smart IoT Predictive Maintenance System using LSTM
+# Smart IoT Predictive Maintenance System using LSTM
+
 
 An end-to-end Deep Learning and MLOps project that predicts the **Remaining Useful Life (RUL)** of turbofan engines using NASA's CMAPSS dataset. The system features a robust **FastAPI backend** serving a PyTorch LSTM model and an interactive **Streamlit frontend dashboard** with real-time timeline simulation controls.
+
+## 🌐 Live Demo
+**[Click Here to Access the Live Dashboard](https://predictivemaintenanceiotwithlstmrnn-hdayzufzmhmlgwjw4uacr8.streamlit.app/)**
 
 ---
 
